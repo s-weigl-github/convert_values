@@ -7,6 +7,7 @@
 
 from convert_speeds import *
 from convert_length import *
+from convert_thermo import *
 
 
 print("Mit diesem kleinen Programm kannst Du Werte umrechnen\n")

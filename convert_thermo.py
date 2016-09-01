@@ -1,7 +1,7 @@
 ################################
 ###   compute the temp of °C K °F
-###   S.Weigl - 24.09.2015
-###   ver. 1.0 - german version
+###   S.Weigl - 01.09.2016
+###   ver. 1.2 - german version
 ###   python version 3.2.5
 ################################
 
@@ -96,37 +96,5 @@ def from_kelvin(kelv):
     print("°F ist =", ans)
   #
 ##
-    
-def to_end():
-  print("nothing to do here!")
-  print("Done!!!")
-##
-## -- definiton end -- ##
-
-## -- What should be computed -- ##
-print("Temperatur Umrechner\n")
-
-print("Um °C in °F umzurechnen gib 'cf' ein")
-print("Um °F in °C umzurechnen gib 'fc' ein")
-print("Um °C oder °F in Kelvin umzurechnen gib 'tk' ein")
-print("um Kelvin in °C oder °F umzurechnen gib 'fk' ein\n\n")
-
-get_choice = str(input("was soll berechnet werden?: "))
-print("\n")
-
-if get_choice == 'cf':
-  to_fahrenheit(cels)
-
-elif get_choice == 'fc':
-  to_celsius(fahr)
-
-elif get_choice == 'tk':
-  to_kelvin(kelv)
-
-elif get_choice == 'fk':
-  from_kelvin(kelv)
-
-else:
-  to_end()
 
 ## E-o-F
